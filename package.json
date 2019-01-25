@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node -r esm .",
-    "dev": "NODE_ENV=development nodemon -r esm"
+    "dev": "nodemon -r esm"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,11 @@
   "dependencies": {
     "apollo-server-express": "^2.3.1",
     "bcryptjs": "^2.4.3",
+    "connect-redis": "^3.4.0",
     "dotenv": "^6.0.0",
     "esm": "^3.1.1",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
     "graphql": "^0.13.2",
     "joi": "^14.3.1",
     "mongoose": "^5.2.7"
